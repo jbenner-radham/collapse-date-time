@@ -14,11 +14,17 @@ $ npm install collapse-date-time
 
 Usage
 -----
+### API
 ```js
 var collapseDateTime = require('collapse-date-time');
 
 var dateTime  = '2015-07-05T21:17:05Z';
 var collapsed = collapseDateTime(dateTime); // > '20150705T211705Z'
+```
+
+### CLI
+```sh
+$ collapse-date-time 2015-07-05T21:17:05Z # > 20150705T211705Z
 ```
 
 Testing
