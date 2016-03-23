@@ -1,0 +1,32 @@
+{
+  "name": "collapse-date-time",
+  "version": "0.1.0",
+  "description": "Collapses ISO 8601 Extended timestamps down to a vCard usable format.",
+  "engines": {
+    "node": ">=4.0"
+  },
+  "main": "lib/collapse-date-time.js",
+  "repository": "jbenner-radham/collapse-date-time",
+  "scripts": {
+    "test": "gulp && mocha"
+  },
+  "keywords": [
+    "collapse",
+    "date",
+    "time",
+    "timestamp",
+    "jcard",
+    "vcard"
+  ],
+  "author": "James Benner <james.benner@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-jscs": "^3.0.2",
+    "gulp-jshint": "^2.0.0",
+    "gulp-micro": "^1.1.0",
+    "jshint": "^2.9.1",
+    "mocha": "^2.4.5"
+  }
+}
