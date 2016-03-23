@@ -1,6 +1,6 @@
 {
   "name": "collapse-date-time",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Collapses ISO 8601 Extended timestamps down to a vCard usable format.",
   "bin": {
     "collapse-date-time": "./cli.js"

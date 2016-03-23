@@ -8,8 +8,14 @@ Collapses ISO 8601 Extended timestamps down to a vCard usable format.
 
 Install
 -------
+### Locally
 ```sh
 $ npm install collapse-date-time
+```
+
+### Globally (for CLI usage)
+```sh
+$ npm install --global collapse-date-time
 ```
 
 Usage
